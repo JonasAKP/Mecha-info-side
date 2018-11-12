@@ -1,0 +1,14 @@
+nav {
+  background-color: #0AABFF !important;
+}
+
+main {
+  grid-template-columns: repeat(12, 1fr);
+  display: grid;
+}
+
+.carousel.carousel-slider {
+  grid-column: 3/8 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

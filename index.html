@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Facts!</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                <li class="tab"><a href="#test1">Evangelion</a></li>
+                <li class="tab"><a href="#test2">Gundam</a></li>
+                <li class="tab"><a href="#test3">Macross</a></li>
+                <li class="tab"><a href="#test4">Zone of the Enders</a></li>
+                </ul>
+            </div>
+            </nav>
+            
+                  
+    </header>
+    <main>
+        <div class="carousel carousel-slider">
+            <a class="carousel-item"><img src="https://lorempixel.com/800/400/food/1"></a>
+            <a class="carousel-item"><img src="https://lorempixel.com/800/400/food/2"></a>
+            <a class="carousel-item"><img src="https://lorempixel.com/800/400/food/3"></a>
+            <a class="carousel-item"><img src="https://lorempixel.com/800/400/food/4"></a>
+            </div>
+    </main>
+</body>
+</html>
+
+<script>
+  $(document).ready(function(){
+    $('.tabs').tabs();
+  });
+</script>
+<script>
+$('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
+</script>
