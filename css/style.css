@@ -4,11 +4,12 @@ nav {
 
 main {
   grid-template-columns: repeat(12, 1fr);
-  display: grid;
+  display: grid !important;
 }
 
 .carousel.carousel-slider {
-  grid-column: 3/8 !important;
+  margin: 5px 0 0 0;
+  grid-column: 4/10 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
